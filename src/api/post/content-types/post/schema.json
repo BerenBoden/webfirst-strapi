@@ -28,12 +28,17 @@
       "required": true
     },
     "cover": {
-      "allowedTypes": [
-        "images"
-      ],
       "type": "media",
       "multiple": false,
-      "required": true
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "meta_data": {
+      "type": "component",
+      "repeatable": false,
+      "component": "seo.metadata"
     }
   }
 }

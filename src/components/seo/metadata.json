@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_seo_metadata",
+  "info": {
+    "displayName": "Metadata",
+    "icon": "alien"
+  },
+  "options": {},
+  "attributes": {
+    "meta_title": {
+      "type": "string",
+      "required": true,
+      "unique": true,
+      "maxLength": 60
+    },
+    "meta_description": {
+      "type": "string",
+      "unique": true,
+      "required": true,
+      "maxLength": 60
+    }
+  }
+}
